@@ -111,6 +111,7 @@ class RegisterPage extends StatelessWidget {
                       decoration: BoxDecoration(
                         color: Colors.white,
                         borderRadius: BorderRadius.circular(20.0),
+                        boxShadow: [BoxShadow(color: Colors.grey.shade600), BoxShadow(color: Colors.red)]
                       ),
                       child: InkWell(
                         onTap: () {},
@@ -133,6 +134,7 @@ class RegisterPage extends StatelessWidget {
                       decoration: BoxDecoration(
                         color: Colors.white,
                         borderRadius: BorderRadius.circular(20.0),
+                        boxShadow: [BoxShadow(color: Colors.grey.shade600), BoxShadow(color: Colors.blue)]
                       ),
                       child: InkWell(
                         onTap: () {},

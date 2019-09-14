@@ -47,6 +47,10 @@ class Commerce extends StatelessWidget {
           fontSize: 14.0,
           color: Colors.grey.shade600,
         ),
+        display2: TextStyle(
+          fontSize: 12.0,
+          color: Colors.white,
+        ),
         caption: TextStyle(
           fontSize: 15.0,
           color: Colors.grey.shade600,
